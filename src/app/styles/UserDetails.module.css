@@ -1,0 +1,113 @@
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: auto;
+  gap: 2rem;
+  padding:1rem;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 5rem;
+  max-width: 800px;
+  background-color: white;
+  }
+  .avatarFavorite{
+    border: 5px solid gold;
+  }
+  .infoContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .titleContainer{
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .bio {
+    margin:0px;
+    margin-bottom: 1rem;
+  }
+  
+  .button {
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0051bb;
+  }
+  .iconContainer{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .closeButton{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem;
+    border: none;
+    font-weight: 900;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .favoriteButton {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: gold;
+  }
+  .followButton{
+    padding: 0.5rem 1rem;
+    background-color: #24292e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 800px) {
+    .container {
+      margin-top: 100px;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .avatar {
+      width: 150px;
+      height: 150px;
+    }
+    .button {
+      margin-right: 0;
+      margin-top: 1rem;
+    }
+    
+  }
+  @media screen and (max-width: 800px) {
+    .container {
+      margin-top: 100px;
+
+    }
+    
+  }

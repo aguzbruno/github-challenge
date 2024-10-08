@@ -1,0 +1,34 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #24292e;
+    color: #ffffff; 
+    margin-bottom: 1rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .links {
+    display: flex;
+    gap: 1.5rem; /* Espaciado entre los enlaces */
+  }
+  
+  .links a {
+    color: #ffffff; /* Texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s; /* Efecto de transición */
+  }
+  
+  .links a:hover {
+    color: #c9d1d9; /* Color claro al pasar el mouse */
+  }
+  
+  

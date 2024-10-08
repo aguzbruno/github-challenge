@@ -1,0 +1,49 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .title,
+  .description {
+    text-align: center;
+  }
+  
+  .description {
+    line-height: 1.5;
+    font-size: 1.5rem;
+  }
+  /* Home.module.css */
+.loadMoreButton {
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .loadMoreButton:hover {
+    background-color: #005bb5;
+  }
+  @media screen and (max-width: 800px) {
+    .container {
+      margin-top: 100px;
+
+    }
+    
+  }

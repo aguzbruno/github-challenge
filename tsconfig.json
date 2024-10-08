@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noEmit": true,
+    "jsx": "react-jsx",  // Añadir esta línea para JSX
+    "types": ["jest", "node"] // Agrega los tipos aquí
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}
